@@ -40,4 +40,7 @@ inputs:
           argument: UnfollowBatched
   environment:
     variables: # 根据自己的需要修改
-      Ray_BiliBiliCookies__1: 123 # cookie，必填
+      Ray_BiliBiliCookies__1: "bsource=search_baidu; _uuid=E37B54D9-68A3-5DBA-5154-10AB69A9B871D84779infoc; buvid3=F7F9BAAC-6122-4FCD-25B5-1C53FC5238B486566infoc; b_nut=1662352685; buvid4=4DCEE839-F521-BD21-6E8D-4856E4805EBB86566-022090512-3WGptA5SEBgq1LF8JQtXRA%3D%3D; innersign=0; i-wanna-go-back=-1; b_ut=7; b_lsid=2101134DF_1830D00F583; fingerprint=2d1f091f427bdfbbf4c7bdf8152f2c6e; buvid_fp_plain=undefined; buvid_fp=2d1f091f427bdfbbf4c7bdf8152f2c6e; sid=mxmyz2qt; DedeUserID=25848989; DedeUserID__ckMd5=3899e293913c7adf; SESSDATA=8234dc27%2C1677922552%2C174d6*91; bili_jct=97adcfccb0f8d820fcbbb378431b8245" # cookie，必填
+      Ray_Security__RandomSleepMaxMin: 20
+      Ray_Security__IntervalSecondsBetweenRequestApi: 20
+      Ray_Serilog__WriteTo__6__Args__turboScKey : SCT129870Tu8nniAsUosR6R4b8Ti5zd50W
